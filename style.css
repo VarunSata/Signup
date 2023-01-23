@@ -1,0 +1,102 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+   
+box-sizing: border-box;
+background-color: #F2F3F5;
+
+
+
+  
+}
+
+.img {
+
+background-repeat: no-repeat;
+background-position: 0px 0px;
+background-size: 170px 186px;
+width: 174px;
+height: 50px;
+text-align: center;
+flex-direction: column;
+
+flex-shrink: 0;
+font: inherit;
+font-size: 100%;
+padding: 10px 0;
+position: relative;
+vertical-align: baseline;
+box-sizing: border-box;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+.form-box {
+    text-align: center;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 3% auto;
+    box-sizing: border-box;
+    border-radius: 0px;
+    font-size: 100%;
+    padding: 40px 0;
+    width: 400px;
+    height: 500px;
+    background:#ffffff;
+    text-align: center;
+}
+
+
+.input-box {
+    margin: 41px auto;
+    width: 90%;
+    padding: 9px 0 7px 8px;
+    margin: 0;
+    outline: none;
+    overflow: hidden;
+ 
+    text-overflow: ellipsis
+    font-size: 15px;
+}
+
+.input-box input{
+    margin: 0;
+    outline: none;
+    overflow: hidden;
+    border: 0;
+    flex: 1 0 auto;
+    text-overflow: ellipsis;
+    width: 100%;
+    color: #fff;
+}
+
+.pw-box {
+    margin: 41px auto;
+    width: 90%;
+    padding: 9px 0 7px 8px;
+    margin: 0;
+    outline: none;
+    overflow: hidden;
+ 
+    text-overflow: ellipsis
+    font-size: 15px;
+}
+.pw-box input {
+    margin: 0;
+    outline: none;
+    overflow: hidden;
+    border: 0;
+    flex: 1 0 auto;
+    text-overflow: ellipsis;
+    width: 100%;
+    color: #fff;
+
+}
